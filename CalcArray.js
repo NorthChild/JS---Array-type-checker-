@@ -2,16 +2,18 @@ var grades = [100, 100, 100, 100];
 
 console.log(grades)
 
-for (score = 0; score < grades.length; score += 1) {
-  console.log('Grades in array --> ' + grades[score]);
-}
-
 function displayGrades() {
   document.getElementById('current_grades').innerHTML = "Your current Grades: " + grades;
 }
 
 var score;
 var scoreInt;
+
+// THIS IS PRETTY MUCH THE BAD BOY THAT DOES ALL THE HEAVY LIFTING
+// most of the rest of the code is just to show results etc
+// this is what you want to change to adapt the constraints inside
+// of the array
+
 
 function addGrade() {
   var score = prompt('add more grades');
@@ -26,6 +28,7 @@ function addGrade() {
   }
   }
 
+// this code simply gives you the final grade using the contents of the array
 function countGrades() {
   var sum = 0;
   for (var i = 0; i < grades.length; i++) {
