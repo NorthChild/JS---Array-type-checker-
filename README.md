@@ -1,7 +1,9 @@
 # JS-Array Discriminator
 
-JS - have a prompt that feeds an array? 
+have a prompt that feeds an array? 
+
 want to keep the array following some constraints (only letters / only numbers)?
+
 here it is:
 
 I also include an html file so you can test and modify the code around
