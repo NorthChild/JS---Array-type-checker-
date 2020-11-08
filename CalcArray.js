@@ -15,7 +15,7 @@ var score;
 var scoreInt;
 
 // THIS IS PRETTY MUCH THE BAD BOY THAT DOES ALL THE HEAVY LIFTING
-// most of the rest of the code is just to show results etc
+// most of the rest of the code is just to display results etc
 // this is what you want to change to adapt the constraints inside
 // of the array
 function addData() {
