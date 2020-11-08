@@ -1,6 +1,6 @@
 # JS-Array type checker
 JS - have a prompt that feeds an array? 
-want to keep the numerical data following some constraints?
+want to keep the array following some constraints (only letters / only numbers?)
 here it is:
 
 i also include an html file so you can test and modify the code around
