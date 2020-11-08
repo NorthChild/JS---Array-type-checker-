@@ -1,4 +1,5 @@
-# JS-Array type checker
+# JS-Array Discriminator
+
 JS - have a prompt that feeds an array? 
 want to keep the array following some constraints (only letters / only numbers?)
 here it is:
